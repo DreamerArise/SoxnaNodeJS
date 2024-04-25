@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: orange; /* Couleur de fond du conteneur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    position: relative; /* Position relative pour les éléments enfants positionnés absolument */
+   /* overflow: hidden;*/
+   
+}
+
+h1 {
+    font-size: 32px;
+    color: #e3620c; /* Couleur orange vif */
+    text-align: center;
+    margin-bottom: 30px; /* Marge en bas pour séparer du contenu */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3 {
+    font-size: 24px;
+    color: #ff6600;
+}
+
+p {
+   /* font-size: 16px;*/
+    line-height: 1.5;
+    font-size: 18px; /* Augmenter la taille de la police */
+    font-family: "Arial Black", sans-serif; /* Changer le style de la police en Gothic */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style des images spécifiques */
+img[alt="My lovely Boy"],
+img[alt="Naruto and Hinata"],
+img[alt="Naruto and Jiraya seinsei"],
+img[alt="Kakashi seinsei"],
+img[alt="My boy is very cute"],
+img[alt="He is the goat, this image is really amazing!!!!"],
+img[alt="sasuke"],
+img[alt="my boys"],
+img[alt="kurama"],
+img[alt="my boy"],img[alt="Lovers"] {
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style des paragraphes spécifiques */
+p:nth-of-type(5),
+p:nth-of-type(7),
+p:nth-of-type(9),
+p:nth-of-type(11),
+p:nth-of-type(13),
+p:nth-of-type(15) {
+    font-style: italic;
+    text-align: center;
+    color: #2d1c07; /* Couleur de texte gris */
+}
+
+/* Style du conteneur d'images */
+div {
+    text-align: center;
+}
+
+
+
+video {
+    max-width: 100%; /* La vidéo ne dépassera pas la largeur du conteneur */
+    height: auto; /* La hauteur s'ajustera automatiquement pour conserver les proportions */
+    position: absolute; /* Position absolue pour permettre le positionnement dans le conteneur */
+    /* top: 0; /* Aligner la vidéo en haut du conteneur */
+     /*left: 0; /* Aligner la vidéo à gauche du conteneur */
+    /* right: 0; /* Aligner la vidéo à droite du conteneur */
+    /* bottom: 0; Aligner la vidéo en bas du conteneur */
+    display: flex;
+}

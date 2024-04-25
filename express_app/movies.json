@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "title": "Harry Potter et la coupe de feu",
+        "release": "1982"
+    },
+
+    {
+        "id": 2,
+        "title": "Triple X",
+        "release": "2008"
+    },
+    
+    {
+        "id": 3,
+        "title": "Chasseurs de sorcieres",
+        "release": 2003
+    }
+]
